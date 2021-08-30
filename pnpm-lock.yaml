@@ -3,8 +3,11 @@ lockfileVersion: 5.3
 specifiers:
   '@loadable/component': ^5.15.0
   '@types/js-search': ^1.4.0
+  '@types/node': ^16.7.8
+  '@types/react': ^17.0.19
   '@types/react-dom': ^17.0.9
   '@types/react-virtualized': ^9.21.12
+  '@types/styled-components': ^5.1.13
   copy-to-clipboard: ^3.3.1
   history: ^5.0.0
   js-search: ^2.0.0
@@ -37,8 +40,11 @@ dependencies:
 
 devDependencies:
   '@types/js-search': 1.4.0
+  '@types/node': 16.7.8
+  '@types/react': 17.0.19
   '@types/react-dom': 17.0.9
   '@types/react-virtualized': 9.21.13
+  '@types/styled-components': 5.1.13
   prettier: 2.3.2
   prettier-plugin-organize-imports: 2.3.3_prettier@2.3.2+typescript@4.4.2
   prettier-plugin-pkg: 0.10.0_prettier@2.3.2
@@ -765,13 +771,19 @@ packages:
       styled-components: 5.3.1_281a4fa50a045c9112baf635f3bc27a7
     dev: false
 
+  /@types/hoist-non-react-statics/3.3.1:
+    resolution: {integrity: sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==}
+    dependencies:
+      '@types/react': 17.0.19
+      hoist-non-react-statics: 3.3.2
+    dev: true
+
   /@types/js-search/1.4.0:
     resolution: {integrity: sha1-8tSvoXak/HsX+0ahWThHiH+h+3s=}
     dev: true
 
   /@types/node/16.7.8:
     resolution: {integrity: sha512-8upnoQU0OPzbIkm+ZMM0zCeFCkw2s3mS0IWdx0+AAaWqm4fkBb0UJp8Edl7FVKRamYbpJC/aVsHpKWBIbiC7Zg==}
-    dev: false
 
   /@types/prop-types/15.7.4:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
@@ -800,6 +812,14 @@ packages:
 
   /@types/scheduler/0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
+    dev: true
+
+  /@types/styled-components/5.1.13:
+    resolution: {integrity: sha512-nIIsiQ+Ag/4xnYf9mhzO3zIZ/zOmKN6HImEZifKh2TLibYz8OudzJbvzDu1uvMfX/+bs0B0RDPB2OIcbrrptVQ==}
+    dependencies:
+      '@types/hoist-non-react-statics': 3.3.1
+      '@types/react': 17.0.19
+      csstype: 3.0.8
     dev: true
 
   /anser/1.4.9:
@@ -1526,7 +1546,6 @@ packages:
     resolution: {integrity: sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==}
     dependencies:
       react-is: 16.13.1
-    dev: false
 
   /http-errors/1.7.3:
     resolution: {integrity: sha512-ZTTX0MWrsQ2ZAhA1cejAwDLycFsd7I7nVtnkT3Ol0aqodaKW+0CTZDQ1uBv5whptCnc8e8HeRRJxRs0kmm/Qfw==}
@@ -2233,7 +2252,6 @@ packages:
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
-    dev: false
 
   /react-is/17.0.2:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
