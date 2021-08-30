@@ -1,3 +1,3 @@
 # styled-icons/website
 
-[styled-icons.js.org](https://styled-icons.js.org)
+[styled-icons.dev](https://styled-icons.dev)
