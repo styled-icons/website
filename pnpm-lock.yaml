@@ -19,13 +19,14 @@ specifiers:
   react-virtualized: ^9.22.3
   styled-components: ^5.3.0
   styled-icons: ^10.36.0
+  typescript: ^4.4.2
 
 dependencies:
   '@loadable/component': 5.15.0_react@17.0.2
   copy-to-clipboard: 3.3.1
   history: 5.0.1
   js-search: 2.0.0
-  next: 11.1.1_react-dom@17.0.2+react@17.0.2
+  next: 11.1.1_01b6e46c81e6fda6a6d233df547d9171
   query-string: 7.0.1
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -39,8 +40,9 @@ devDependencies:
   '@types/react-dom': 17.0.9
   '@types/react-virtualized': 9.21.13
   prettier: 2.3.2
-  prettier-plugin-organize-imports: 2.3.3_prettier@2.3.2
+  prettier-plugin-organize-imports: 2.3.3_prettier@2.3.2+typescript@4.4.2
   prettier-plugin-pkg: 0.10.0_prettier@2.3.2
+  typescript: 4.4.2
 
 packages:
 
@@ -1830,7 +1832,7 @@ packages:
       querystring: 0.2.1
     dev: false
 
-  /next/11.1.1_react-dom@17.0.2+react@17.0.2:
+  /next/11.1.1_01b6e46c81e6fda6a6d233df547d9171:
     resolution: {integrity: sha512-vfLJDkwAHsZUho5R1K4w49nfYhftUMWNmeNSjCtulOvnRBuEFb7ROyRZOQk7f29rMz02eLQrPZ9yiAmPsexL2g==}
     engines: {node: '>=12.0.0'}
     hasBin: true
@@ -1881,7 +1883,7 @@ packages:
       os-browserify: 0.3.0
       p-limit: 3.1.0
       path-browserify: 1.0.1
-      pnp-webpack-plugin: 1.6.4
+      pnp-webpack-plugin: 1.6.4_typescript@4.4.2
       postcss: 8.2.15
       process: 0.11.10
       querystring-es3: 0.2.1
@@ -2075,11 +2077,11 @@ packages:
     resolution: {integrity: sha512-fnWVljUchTro6RiCFvCXBbNhJc2NijN7oIQxbwsyL0buWJPG85v81ehlHI9fXrJsMNgTofEoWIQeClKpgxFLrg==}
     dev: false
 
-  /pnp-webpack-plugin/1.6.4:
+  /pnp-webpack-plugin/1.6.4_typescript@4.4.2:
     resolution: {integrity: sha512-7Wjy+9E3WwLOEL30D+m8TSTF7qJJUJLONBnwQp0518siuMxUQUbgZwssaFX+QKlZkjHZcw/IpZCt/H0srrntSg==}
     engines: {node: '>=6'}
     dependencies:
-      ts-pnp: 1.2.0
+      ts-pnp: 1.2.0_typescript@4.4.2
     transitivePeerDependencies:
       - typescript
     dev: false
@@ -2097,13 +2099,14 @@ packages:
       source-map: 0.6.1
     dev: false
 
-  /prettier-plugin-organize-imports/2.3.3_prettier@2.3.2:
+  /prettier-plugin-organize-imports/2.3.3_prettier@2.3.2+typescript@4.4.2:
     resolution: {integrity: sha512-PBOwQ8vEIB2b7B3gCuBG7D+dqsr1fsTR4TSAjNacRVdHJrD0yzgz9grOLPSyfwJm+NUTZLyWeHoZ+1mHaUrk+g==}
     peerDependencies:
       prettier: '>=2.0'
       typescript: '>=2.9'
     dependencies:
       prettier: 2.3.2
+      typescript: 4.4.2
     dev: true
 
   /prettier-plugin-pkg/0.10.0_prettier@2.3.2:
@@ -2644,7 +2647,7 @@ packages:
       punycode: 2.1.1
     dev: false
 
-  /ts-pnp/1.2.0:
+  /ts-pnp/1.2.0_typescript@4.4.2:
     resolution: {integrity: sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw==}
     engines: {node: '>=6'}
     peerDependencies:
@@ -2652,6 +2655,8 @@ packages:
     peerDependenciesMeta:
       typescript:
         optional: true
+    dependencies:
+      typescript: 4.4.2
     dev: false
 
   /tty-browserify/0.0.0:
@@ -2666,6 +2671,12 @@ packages:
     resolution: {integrity: sha512-Ne2YiiGN8bmrmJJEuTWTLJR32nh/JdL1+PSicowtNb0WFpn59GK8/lfD61bVtzguz7b3PBt74nxpv/Pw5po5Rg==}
     engines: {node: '>=8'}
     dev: false
+
+  /typescript/4.4.2:
+    resolution: {integrity: sha512-gzP+t5W4hdy4c+68bfcv0t400HVJMMd2+H9B7gae1nQlBzCqvrXX+6GL/b3GAgyTH966pzrZ70/fRjwAtZksSQ==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
 
   /unbox-primitive/1.0.1:
     resolution: {integrity: sha512-tZU/3NqK3dA5gpE1KtyiJUrEB0lxnGkMFHptJ7q6ewdZ8s12QrODwNbhIJStmJkd1QDXa1NRA8aF2A1zk/Ypyw==}
