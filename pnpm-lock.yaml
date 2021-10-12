@@ -21,7 +21,7 @@ specifiers:
   react-is: ^17.0.2
   react-virtualized: ^9.22.3
   styled-components: ^5.3.0
-  styled-icons: 10.44.0
+  styled-icons: 10.45.0
   typescript: ^4.4.3
 
 dependencies:
@@ -36,7 +36,7 @@ dependencies:
   react-is: 17.0.2
   react-virtualized: 9.22.3_react-dom@17.0.2+react@17.0.2
   styled-components: 5.3.1_281a4fa50a045c9112baf635f3bc27a7
-  styled-icons: 10.44.0_8c4c2c5ce15fefb0151c6a5afd60853f
+  styled-icons: 10.45.0_8c4c2c5ce15fefb0151c6a5afd60853f
 
 devDependencies:
   '@types/js-search': 1.4.0
@@ -735,8 +735,8 @@ packages:
       styled-components: 5.3.1_281a4fa50a045c9112baf635f3bc27a7
     dev: false
 
-  /@styled-icons/simple-icons/10.43.0_8c4c2c5ce15fefb0151c6a5afd60853f:
-    resolution: {integrity: sha512-hUv0yMNgpy0fyv+7PGKPeGfhx4gQnkh1kPuLZTKpysYOO4M8f8xqeAVMRpmEhEKztv2KyxgpukoakX3n0Ig/Hw==}
+  /@styled-icons/simple-icons/10.45.0_8c4c2c5ce15fefb0151c6a5afd60853f:
+    resolution: {integrity: sha512-2agGgrxuiBjicbz5kgF1M691oNfRUYwSWy80kqJCEGXyJ9YGtLWXTSNdLYMk0Dt4JnL0/3eKItU9jYf24rCcJg==}
     peerDependencies:
       react: '*'
       styled-components: '*'
@@ -2561,8 +2561,8 @@ packages:
       supports-color: 5.5.0
     dev: false
 
-  /styled-icons/10.44.0_8c4c2c5ce15fefb0151c6a5afd60853f:
-    resolution: {integrity: sha512-MTQnT9cMmJEFKNYvZIQHrwVuBWPKRpYENdDSyswM+KtP/fzUEPzWlq9JKks/pnEtYxNy7rm4jaqZK1i7KDk0Kw==}
+  /styled-icons/10.45.0_8c4c2c5ce15fefb0151c6a5afd60853f:
+    resolution: {integrity: sha512-oUsAAr95m+IPS3JxExaxdxoVA6FIqTPEykebMe7h7rkD6X5JS5K37kg4HlWJOcpMznL0Vj3GW6S5LF1qqUwN7Q==}
     peerDependencies:
       react: '*'
       styled-components: '>=4.1.0 <6'
@@ -2601,7 +2601,7 @@ packages:
       '@styled-icons/remix-editor': 10.33.0_8c4c2c5ce15fefb0151c6a5afd60853f
       '@styled-icons/remix-fill': 10.18.0_8c4c2c5ce15fefb0151c6a5afd60853f
       '@styled-icons/remix-line': 10.18.0_8c4c2c5ce15fefb0151c6a5afd60853f
-      '@styled-icons/simple-icons': 10.43.0_8c4c2c5ce15fefb0151c6a5afd60853f
+      '@styled-icons/simple-icons': 10.45.0_8c4c2c5ce15fefb0151c6a5afd60853f
       '@styled-icons/styled-icon': 10.6.3_8c4c2c5ce15fefb0151c6a5afd60853f
       '@styled-icons/typicons': 10.18.0_8c4c2c5ce15fefb0151c6a5afd60853f
       '@styled-icons/zondicons': 10.18.0_8c4c2c5ce15fefb0151c6a5afd60853f
