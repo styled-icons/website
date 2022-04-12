@@ -4,7 +4,7 @@ specifiers:
   '@loadable/component': ^5.15.0
   '@types/js-search': ^1.4.0
   '@types/node': ^16.9.6
-  '@types/react': ^17.0.24
+  '@types/react': ^18.0.2
   '@types/react-dom': ^17.0.9
   '@types/react-virtualized': ^9.21.12
   '@types/styled-components': ^5.1.14
@@ -41,7 +41,7 @@ dependencies:
 devDependencies:
   '@types/js-search': 1.4.0
   '@types/node': 16.9.6
-  '@types/react': 17.0.24
+  '@types/react': 18.0.2
   '@types/react-dom': 17.0.9
   '@types/react-virtualized': 9.21.13
   '@types/styled-components': 5.1.14
@@ -824,6 +824,14 @@ packages:
 
   /@types/react/17.0.24:
     resolution: {integrity: sha512-eIpyco99gTH+FTI3J7Oi/OH8MZoFMJuztNRimDOJwH4iGIsKV2qkGnk4M9VzlaVWeEEWLWSQRy0FEA0Kz218cg==}
+    dependencies:
+      '@types/prop-types': 15.7.4
+      '@types/scheduler': 0.16.2
+      csstype: 3.0.9
+    dev: true
+
+  /@types/react/18.0.2:
+    resolution: {integrity: sha512-2poV9ReTwwV5ZNxkKyk7t6Vp/odeTfYI3vRjtDYWfUdEstx9mp26jzELfMBwV6gXg1irhHUnmZJH/dJW7xafcA==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
