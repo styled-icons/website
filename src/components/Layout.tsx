@@ -64,13 +64,15 @@ const GlobalStyle = createGlobalStyle`
   .icon-card {
     background: rgba(0, 0, 0, 0.2);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     padding: 1rem;
     cursor: pointer;
     color: #fff;
-    transition: transform 0.5s ease-out;
+    transition: transform 0.2s ease-out;
     will-change: transform;
     width: 100%;
     height: 100%;
@@ -83,12 +85,15 @@ const GlobalStyle = createGlobalStyle`
   .icon-card .name {
     font-weight: 500;
     overflow-x: scroll;
-    width: 100%;
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 5px;
+    width: 0;  // Avoid it moving to the next line
   }
 
   .icon-card code {
     width: 100%;
-    text-align: center;
+    text-align: left;
     padding: 0;
   }
 
