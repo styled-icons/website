@@ -29,6 +29,40 @@ const GlobalStyle = createGlobalStyle`
     color: #fff;
   }
 
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px 0;
+    align-items: center;
+  }
+
+  @media all and (min-width: 800px) {
+    .hero .content {
+      width: 50%;
+    }
+  }
+
+  .hero .content p {
+    margin: 0;
+  }
+
+  button {
+    background: rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 4px;
+    padding: 8px 12px;
+    color: white;
+    cursor: pointer;
+    transition: all .2s ease;
+    margin-top: 1.5em;
+  }
+
+  button:hover {
+    background: rgba(0,0,0,0.2);
+    border: 1px solid rgba(255,255,255,1);
+  }
+
   h1 {
     font-weight: 600;
     font-size: 1.7rem;
@@ -52,9 +86,9 @@ const GlobalStyle = createGlobalStyle`
 
   code.demo {
     display: inline-block;
-    margin-bottom: 12px;
-    margin-top: 1em;
+    margin: 0;
     background: rgba(255,255,255, 0.2);
+    padding-right: 50px;
   }
 
   .icon-card-wrapper {
