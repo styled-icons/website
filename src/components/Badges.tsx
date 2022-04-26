@@ -15,5 +15,9 @@ export const Badges: React.SFC = () => (
       <img src="https://badgen.net/badge/built%20with/styled%20components/db7093" alt="Built with Styled Components" />
     </a>
     <img src="https://badgen.net/badge/powered%20by/typescript/blue" alt="Powered by TypeScript" />
+
+    <a href="https://vercel.com/?utm_source=styled-icons">
+      <img height="20" src="/powered-by-vercel.svg" alt="Powered by Vercel" />
+    </a>
   </div>
 )

@@ -69,7 +69,7 @@ const IconExporer: React.SFC = () => {
         {({height, isScrolling, scrollTop}) => (
           <AutoSizer disableHeight>
             {({width}) => {
-              const columnCount = width > 755 ? 4 : width < 600 ? 2 : 3
+              const columnCount = width > 755 ? 3 : width < 600 ? 1 : 2
               const rowCount = Math.ceil(filteredIcons.length / columnCount)
               const size = Math.floor(width / columnCount)
 
@@ -82,7 +82,7 @@ const IconExporer: React.SFC = () => {
                   height={height}
                   isScrolling={isScrolling}
                   rowCount={rowCount}
-                  rowHeight={size}
+                  rowHeight={120}
                   scrollTop={scrollTop}
                   width={width}
                 />
