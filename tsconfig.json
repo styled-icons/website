@@ -14,7 +14,8 @@
     "noEmit": true,
     "jsx": "preserve",
     "typeRoots": ["node_modules/@types"],
-    "allowJs": true
+    "allowJs": true,
+    "incremental": true
   },
   "include": ["src"],
   "exclude": ["node_modules"]

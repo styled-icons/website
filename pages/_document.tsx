@@ -1,4 +1,4 @@
-import Document, {Head, Main, NextScript} from 'next/document'
+import Document, {Head, Html, Main, NextScript} from 'next/document'
 import {ServerStyleSheet} from 'styled-components'
 
 export default class MyDocument extends Document {
@@ -20,11 +20,10 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <html lang="en">
+      <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
           <link rel="shortcut icon" href="/icons/favicon.ico" />
           <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
@@ -110,7 +109,7 @@ export default class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     )
   }
 }
