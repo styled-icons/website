@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@loadable/component': ^5.15.0
   '@types/js-search': ^1.4.0
-  '@types/node': ^16.9.6
+  '@types/node': ^18.7.2
   '@types/react': ^17.0.24
   '@types/react-dom': ^17.0.9
   '@types/react-virtualized': ^9.21.12
@@ -40,7 +40,7 @@ dependencies:
 
 devDependencies:
   '@types/js-search': 1.4.0
-  '@types/node': 16.9.6
+  '@types/node': 18.7.2
   '@types/react': 17.0.24
   '@types/react-dom': 17.0.9
   '@types/react-virtualized': 9.21.13
@@ -796,6 +796,11 @@ packages:
 
   /@types/node/16.9.6:
     resolution: {integrity: sha512-YHUZhBOMTM3mjFkXVcK+WwAcYmyhe1wL4lfqNtzI0b3qAy7yuSetnM7QJazgE5PFmgVTNGiLOgRFfJMqW7XpSQ==}
+    dev: false
+
+  /@types/node/18.7.2:
+    resolution: {integrity: sha512-ce7MIiaYWCFv6A83oEultwhBXb22fxwNOQf5DIxWA4WXvDQ7K+L0fbWl/YOfCzlR5B/uFkSnVBhPcOfOECcWvA==}
+    dev: true
 
   /@types/prop-types/15.7.4:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
