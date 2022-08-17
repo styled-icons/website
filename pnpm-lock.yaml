@@ -13,7 +13,7 @@ specifiers:
   js-search: ^2.0.0
   next: ^11.1.2
   prettier: ^2.4.1
-  prettier-plugin-organize-imports: ^2.3.3
+  prettier-plugin-organize-imports: ^3.1.0
   prettier-plugin-pkg: ^0.10.0
   query-string: ^7.0.1
   react: ^17.0.2
@@ -46,7 +46,7 @@ devDependencies:
   '@types/react-virtualized': 9.21.13
   '@types/styled-components': 5.1.14
   prettier: 2.4.1
-  prettier-plugin-organize-imports: 2.3.3_prettier@2.4.1+typescript@4.4.3
+  prettier-plugin-organize-imports: 3.1.0_prettier@2.4.1+typescript@4.4.3
   prettier-plugin-pkg: 0.10.0_prettier@2.4.1
   typescript: 4.4.3
 
@@ -2151,11 +2151,15 @@ packages:
       source-map: 0.6.1
     dev: false
 
-  /prettier-plugin-organize-imports/2.3.3_prettier@2.4.1+typescript@4.4.3:
-    resolution: {integrity: sha512-PBOwQ8vEIB2b7B3gCuBG7D+dqsr1fsTR4TSAjNacRVdHJrD0yzgz9grOLPSyfwJm+NUTZLyWeHoZ+1mHaUrk+g==}
+  /prettier-plugin-organize-imports/3.1.0_prettier@2.4.1+typescript@4.4.3:
+    resolution: {integrity: sha512-eufD78FKdkDTyyY9oKxuwEMrfz4/AXrGeyeyjqiRtSBr01DAdGFTq4SgIKvLeqlLkq+ZPJ2H0+BK0e6flRUwJQ==}
     peerDependencies:
+      '@volar/vue-typescript': '>=0.39.0'
       prettier: '>=2.0'
       typescript: '>=2.9'
+    peerDependenciesMeta:
+      '@volar/vue-typescript':
+        optional: true
     dependencies:
       prettier: 2.4.1
       typescript: 4.4.3
