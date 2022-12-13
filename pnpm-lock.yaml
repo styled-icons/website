@@ -15,7 +15,7 @@ specifiers:
   prettier: ^2.4.1
   prettier-plugin-organize-imports: ^2.3.3
   prettier-plugin-pkg: ^0.10.0
-  query-string: ^7.0.1
+  query-string: ^8.0.1
   react: ^17.0.2
   react-dom: ^17.0.2
   react-is: ^17.0.2
@@ -30,7 +30,7 @@ dependencies:
   history: 5.0.1
   js-search: 2.0.0
   next: 11.1.2_bd7797d63db473de6e2318609a63c933
-  query-string: 7.0.1
+  query-string: 8.0.1
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-is: 17.0.2
@@ -1279,8 +1279,8 @@ packages:
       supports-color: 5.5.0
     dev: false
 
-  /decode-uri-component/0.2.0:
-    resolution: {integrity: sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=}
+  /decode-uri-component/0.2.2:
+    resolution: {integrity: sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==}
     engines: {node: '>=0.10'}
     dev: false
 
@@ -1426,9 +1426,9 @@ packages:
       to-regex-range: 5.0.1
     dev: false
 
-  /filter-obj/1.1.0:
-    resolution: {integrity: sha1-mzERErxsYSehbgFsbF1/GeCAXFs=}
-    engines: {node: '>=0.10.0'}
+  /filter-obj/5.1.0:
+    resolution: {integrity: sha512-qWeTREPoT7I0bifpPUXtxkZJ1XJzxWtfoWWkdVGqa+eCr3SHW/Ocp89o8vLvbUuQnadybJpjOKu4V+RwO6sGng==}
+    engines: {node: '>=14.16'}
     dev: false
 
   /find-cache-dir/3.3.1:
@@ -2215,14 +2215,13 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /query-string/7.0.1:
-    resolution: {integrity: sha512-uIw3iRvHnk9to1blJCG3BTc+Ro56CBowJXKmNNAm3RulvPBzWLRqKSiiDk+IplJhsydwtuNMHi8UGQFcCLVfkA==}
-    engines: {node: '>=6'}
+  /query-string/8.0.1:
+    resolution: {integrity: sha512-8SDmV7tHy3qJeb8TK07LQ/4GDp8tGDgNjAC4de/ma/+QfwK+yXO9lQaAnGLmHrd8LUI2z5WNnCE8DURkYUhzgw==}
+    engines: {node: '>=14.16'}
     dependencies:
-      decode-uri-component: 0.2.0
-      filter-obj: 1.1.0
+      decode-uri-component: 0.2.2
+      filter-obj: 5.1.0
       split-on-first: 1.1.0
-      strict-uri-encode: 2.0.0
     dev: false
 
   /querystring-es3/0.2.1:
@@ -2493,11 +2492,6 @@ packages:
     resolution: {integrity: sha1-FhhUhpRCACGhGC/wrxkRwSl2F3M=}
     dependencies:
       debug: 2.6.9
-    dev: false
-
-  /strict-uri-encode/2.0.0:
-    resolution: {integrity: sha1-ucczDHBChi9rFC3CdLvMWGbONUY=}
-    engines: {node: '>=4'}
     dev: false
 
   /string-hash/1.1.3:
